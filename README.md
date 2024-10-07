@@ -84,6 +84,7 @@ Average reading score
 Scores by School Size
 
 **Scores by School Size**
+
 Use the following code to create three bins with reasonable cutoff values to group school size.
 
     size_bins = [0, 1000, 2000, 5000]
@@ -102,6 +103,7 @@ Use the following code to then calculate mean scores per size range.
 Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
 **Scores by School Type**
+
 Use the per_school_summary DataFrame to create a new DataFrame called type_summary.
 This new DataFrame should show school performance based on the "School Type".
     
